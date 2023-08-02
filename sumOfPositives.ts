@@ -6,9 +6,7 @@
 
 
 function positiveSum(arr) {
-  const result =  arr.filter(x => x > 0)
-  if (result.length < 1) return 0
-  return result.reduce((a, b) => a + b)
+  return arr.reduce((a, b) => a + (b > 0 ? b: 0), 0)
 }
 
 
