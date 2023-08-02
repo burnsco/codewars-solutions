@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"ts-node": "^10.9.1",
+		"tsc": "^2.0.4"
+	},
+	"scripts": {
+		"init": "tsc --init"
+}
+}
